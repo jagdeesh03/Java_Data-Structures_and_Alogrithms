@@ -1,11 +1,10 @@
-import java.util.*;
 public class Sqrt
 {
 public static void main(String[] args)
 {
- int n=36;
- int p=3;
- System.out.printf("%.3f",sqrt(n,p));
+  int n=40;
+  int p=3;
+  System.out.printf("%.3f",sqrt(n,p));
 }
 static double sqrt(int n,int p)
 {
@@ -28,6 +27,7 @@ static double sqrt(int n,int p)
      start = mid+1;
    }
  }
+ root=end;
  double increment = 0.1;
  for(int i=0;i<p;i++)
  {
